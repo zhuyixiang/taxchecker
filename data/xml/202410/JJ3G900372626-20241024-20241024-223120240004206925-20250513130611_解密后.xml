@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RtxMessage>    <Dec>
+        <DecHead>
+            <bgd_no>223120240004206925</bgd_no>
+            <hgdjc_no></hgdjc_no>
+            <Hxd_no></Hxd_no>
+            <lj_date>20241024</lj_date>
+            <ht_no>FTM2409003、FTM2410008</ht_no>
+            <cj_type>FOB</cj_type>
+            <yf>0</yf>
+            <yf_type></yf_type>
+            <Yf_bz></Yf_bz>
+            <bf>0</bf>
+            <Bf_type></Bf_type>
+            <Bf_bz></Bf_bz>
+            <zf>0</zf>
+            <Zf_type></Zf_type>
+            <Zf_bz></Zf_bz>
+            <my_type>0110</my_type>
+            <traf_name>YM TUTORIAL</traf_name>
+        </DecHead>
+        <DecLists>            <DecList>
+                <spxh>1</spxh>
+                <cmcode>2106909090</cmcode>
+                <cm_name>牛至油软胶囊</cm_name>
+                <Yb_bz>USD</Yb_bz>
+                <yb_amt>14137.2</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>501.86</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>501.86</Cj_qnt>
+            </DecList>
+                        <DecList>
+                <spxh>2</spxh>
+                <cmcode>2922192100</cmcode>
+                <cm_name>二甲胺基乙醇酒石酸氢盐</cm_name>
+                <Yb_bz>USD</Yb_bz>
+                <yb_amt>5400</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>1000</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>1000</Cj_qnt>
+            </DecList>
+                    </DecLists>
+    </Dec>
+    </RtxMessage>
+

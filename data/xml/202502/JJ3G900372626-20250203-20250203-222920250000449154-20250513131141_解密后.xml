@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RtxMessage>    <Dec>
+        <DecHead>
+            <bgd_no>222920250000449154</bgd_no>
+            <hgdjc_no></hgdjc_no>
+            <Hxd_no></Hxd_no>
+            <lj_date>20250203</lj_date>
+            <ht_no>ATS24009-1</ht_no>
+            <cj_type>CIF</cj_type>
+            <yf>120</yf>
+            <yf_type>3</yf_type>
+            <Yf_bz>USD</Yf_bz>
+            <bf>10</bf>
+            <Bf_type>3</Bf_type>
+            <Bf_bz>USD</Bf_bz>
+            <zf>0</zf>
+            <Zf_type></Zf_type>
+            <Zf_bz></Zf_bz>
+            <my_type>0110</my_type>
+            <traf_name>TS SINGAPORE</traf_name>
+        </DecHead>
+        <DecLists>            <DecList>
+                <spxh>1</spxh>
+                <cmcode>2922491990</cmcode>
+                <cm_name>L-苯丙氨酸</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>2700</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>225</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>225</Cj_qnt>
+            </DecList>
+                        <DecList>
+                <spxh>2</spxh>
+                <cmcode>2922419000</cmcode>
+                <cm_name>L-赖氨酸盐酸盐</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>250</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>50</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>50</Cj_qnt>
+            </DecList>
+                    </DecLists>
+    </Dec>
+    </RtxMessage>
+

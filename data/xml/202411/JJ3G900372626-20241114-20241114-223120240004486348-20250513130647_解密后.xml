@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RtxMessage>    <Dec>
+        <DecHead>
+            <bgd_no>223120240004486348</bgd_no>
+            <hgdjc_no></hgdjc_no>
+            <Hxd_no></Hxd_no>
+            <lj_date>20241114</lj_date>
+            <ht_no>FTM2410018</ht_no>
+            <cj_type>FOB</cj_type>
+            <yf>0</yf>
+            <yf_type></yf_type>
+            <Yf_bz></Yf_bz>
+            <bf>0</bf>
+            <Bf_type></Bf_type>
+            <Bf_bz></Bf_bz>
+            <zf>0</zf>
+            <Zf_type></Zf_type>
+            <Zf_bz></Zf_bz>
+            <my_type>0110</my_type>
+            <traf_name>WAN HAI A06</traf_name>
+        </DecHead>
+        <DecLists>            <DecList>
+                <spxh>1</spxh>
+                <cmcode>2921199090</cmcode>
+                <cm_name>牛磺酸</cm_name>
+                <Yb_bz>USD</Yb_bz>
+                <yb_amt>450</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>150</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>150</Cj_qnt>
+            </DecList>
+                    </DecLists>
+    </Dec>
+    </RtxMessage>
+

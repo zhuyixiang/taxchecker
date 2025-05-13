@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RtxMessage>    <Dec>
+        <DecHead>
+            <bgd_no>223120240004903741</bgd_no>
+            <hgdjc_no></hgdjc_no>
+            <Hxd_no></Hxd_no>
+            <lj_date>20241212</lj_date>
+            <ht_no>FTM24006</ht_no>
+            <cj_type>CIF</cj_type>
+            <yf>100</yf>
+            <yf_type>3</yf_type>
+            <Yf_bz>USD</Yf_bz>
+            <bf>10</bf>
+            <Bf_type>3</Bf_type>
+            <Bf_bz>USD</Bf_bz>
+            <zf>0</zf>
+            <Zf_type></Zf_type>
+            <Zf_bz></Zf_bz>
+            <my_type>0110</my_type>
+            <traf_name>EVER FORWARD</traf_name>
+        </DecHead>
+        <DecLists>            <DecList>
+                <spxh>1</spxh>
+                <cmcode>2918160000</cmcode>
+                <cm_name>葡萄糖酸镁</cm_name>
+                <Yb_bz>USD</Yb_bz>
+                <yb_amt>11000</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>2000</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>2000</Cj_qnt>
+            </DecList>
+                    </DecLists>
+    </Dec>
+    </RtxMessage>
+

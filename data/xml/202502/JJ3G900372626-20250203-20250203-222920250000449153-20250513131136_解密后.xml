@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RtxMessage>    <Dec>
+        <DecHead>
+            <bgd_no>222920250000449153</bgd_no>
+            <hgdjc_no></hgdjc_no>
+            <Hxd_no></Hxd_no>
+            <lj_date>20250203</lj_date>
+            <ht_no>ATS24007-1&amp;ATS24008&amp;ATS24013&amp;ATS</ht_no>
+            <cj_type>CIF</cj_type>
+            <yf>1600</yf>
+            <yf_type>3</yf_type>
+            <Yf_bz>USD</Yf_bz>
+            <bf>10</bf>
+            <Bf_type>3</Bf_type>
+            <Bf_bz>USD</Bf_bz>
+            <zf>0</zf>
+            <Zf_type></Zf_type>
+            <Zf_bz></Zf_bz>
+            <my_type>0110</my_type>
+            <traf_name>TS SINGAPORE</traf_name>
+        </DecHead>
+        <DecLists>            <DecList>
+                <spxh>1</spxh>
+                <cmcode>2924199090</cmcode>
+                <cm_name>L-瓜氨酸 DL-苹果酸</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>22950</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>2700</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>2700</Cj_qnt>
+            </DecList>
+                        <DecList>
+                <spxh>2</spxh>
+                <cmcode>2924199090</cmcode>
+                <cm_name>L-谷氨酰胺</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>7290</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>675</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>675</Cj_qnt>
+            </DecList>
+                        <DecList>
+                <spxh>3</spxh>
+                <cmcode>2925290090</cmcode>
+                <cm_name>L-精氨酸盐酸盐</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>2340</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>300</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>300</Cj_qnt>
+            </DecList>
+                    </DecLists>
+    </Dec>
+    </RtxMessage>
+
