@@ -1,5 +1,7 @@
 package com.ftm.pojo;
 
+import java.math.BigDecimal;
+
 public class OrderDetail {
     private String orderNo;
     private String orderId;
@@ -8,7 +10,11 @@ public class OrderDetail {
     private String productCode;
     private String productName;
     private String currency;
-    private String amount;
+    private BigDecimal amount;
+    private BigDecimal unit;
+
+    private BigDecimal invoicePriceCNY;
+    private BigDecimal invoiceAmountCNY;
 
     public String getOrderNo() {
         return orderNo;
@@ -50,11 +56,11 @@ public class OrderDetail {
         this.currency = currency;
     }
 
-    public String getAmount() {
+    public BigDecimal getAmount() {
         return amount;
     }
 
-    public void setAmount(String amount) {
+    public void setAmount(BigDecimal amount) {
         this.amount = amount;
     }
 
@@ -83,5 +89,29 @@ public class OrderDetail {
                 ", productCode='" + productCode + '\'' +
                 ", productName='" + productName + '\'' +
                 '}';
+    }
+
+    public BigDecimal getUnit() {
+        return unit;
+    }
+
+    public void setUnit(BigDecimal unit) {
+        this.unit = unit;
+    }
+
+    public BigDecimal getInvoicePriceCNY() {
+        return invoicePriceCNY;
+    }
+
+    public void setInvoicePriceCNY(BigDecimal invoicePriceCNY) {
+        this.invoicePriceCNY = invoicePriceCNY;
+    }
+
+    public BigDecimal getInvoiceAmountCNY() {
+        return invoiceAmountCNY;
+    }
+
+    public void setInvoiceAmountCNY(BigDecimal invoiceAmountCNY) {
+        this.invoiceAmountCNY = invoiceAmountCNY;
     }
 }

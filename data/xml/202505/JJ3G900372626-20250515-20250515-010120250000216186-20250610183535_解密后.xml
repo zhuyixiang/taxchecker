@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RtxMessage>    <Dec>
         <DecHead>
-            <bgd_no>223320240000399366</bgd_no>
+            <bgd_no>010120250000216186</bgd_no>
             <hgdjc_no></hgdjc_no>
             <Hxd_no></Hxd_no>
-            <lj_date>20240323</lj_date>
-            <ht_no>FTM2403002</ht_no>
+            <lj_date>20250515</lj_date>
+            <ht_no>FTM2504007</ht_no>
             <cj_type>CIF</cj_type>
-            <yf>10656</yf>
+            <yf>8820</yf>
             <yf_type>3</yf_type>
             <Yf_bz>CNY</Yf_bz>
             <bf>30</bf>
             <Bf_type>3</Bf_type>
-            <Bf_bz>USD</Bf_bz>
+            <Bf_bz>CNY</Bf_bz>
             <zf>0</zf>
             <Zf_type></Zf_type>
             <Zf_bz></Zf_bz>
@@ -22,15 +22,15 @@
         <DecLists>            <DecList>
                 <spxh>1</spxh>
                 <cmcode>1302199099</cmcode>
-                <cm_name>火龙果粉</cm_name>
+                <cm_name>人参提取物</cm_name>
                 <Yb_bz>USD</Yb_bz>
-                <yb_amt>4875</yb_amt>
+                <yb_amt>30000</yb_amt>
                 <Fd_unit>035</Fd_unit>
-                <Fd_qnt>250</Fd_qnt>
+                <Fd_qnt>150</Fd_qnt>
                 <No2_Fd_unit></No2_Fd_unit>
                 <No2_Fd_qnt>0</No2_Fd_qnt>
                 <Cj_unit>035</Cj_unit>
-                <Cj_qnt>250</Cj_qnt>
+                <Cj_qnt>150</Cj_qnt>
             </DecList>
                     </DecLists>
     </Dec>

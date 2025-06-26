@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RtxMessage>    <Dec>
         <DecHead>
-            <bgd_no>223320240000308797</bgd_no>
+            <bgd_no>422720250000540737</bgd_no>
             <hgdjc_no></hgdjc_no>
             <Hxd_no></Hxd_no>
-            <lj_date>20240307</lj_date>
-            <ht_no>CB2402006</ht_no>
+            <lj_date>20250527</lj_date>
+            <ht_no>ATS25006</ht_no>
             <cj_type>CIF</cj_type>
-            <yf>720</yf>
+            <yf>821</yf>
             <yf_type>3</yf_type>
             <Yf_bz>USD</Yf_bz>
-            <bf>30</bf>
+            <bf>38</bf>
             <Bf_type>3</Bf_type>
             <Bf_bz>USD</Bf_bz>
             <zf>0</zf>
             <Zf_type></Zf_type>
             <Zf_bz></Zf_bz>
             <my_type>0110</my_type>
-            <traf_name></traf_name>
+            <traf_name>MSC JUBILEE IX</traf_name>
         </DecHead>
         <DecLists>            <DecList>
                 <spxh>1</spxh>
-                <cmcode>2936220000</cmcode>
-                <cm_name>维生素B1</cm_name>
-                <Yb_bz>USD</Yb_bz>
-                <yb_amt>1280</yb_amt>
+                <cmcode>1302199099</cmcode>
+                <cm_name>水飞蓟提取物</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>7000</yb_amt>
                 <Fd_unit>035</Fd_unit>
-                <Fd_qnt>25</Fd_qnt>
+                <Fd_qnt>200</Fd_qnt>
                 <No2_Fd_unit></No2_Fd_unit>
                 <No2_Fd_qnt>0</No2_Fd_qnt>
                 <Cj_unit>035</Cj_unit>
-                <Cj_qnt>25</Cj_qnt>
+                <Cj_qnt>200</Cj_qnt>
             </DecList>
                         <DecList>
                 <spxh>2</spxh>
-                <cmcode>2936250000</cmcode>
-                <cm_name>维生素B6</cm_name>
-                <Yb_bz>USD</Yb_bz>
-                <yb_amt>915</yb_amt>
+                <cmcode>2924199090</cmcode>
+                <cm_name>L-瓜氨酸 DL-苹果酸</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>45920</yb_amt>
                 <Fd_unit>035</Fd_unit>
-                <Fd_qnt>25</Fd_qnt>
+                <Fd_qnt>5600</Fd_qnt>
                 <No2_Fd_unit></No2_Fd_unit>
                 <No2_Fd_qnt>0</No2_Fd_qnt>
                 <Cj_unit>035</Cj_unit>
-                <Cj_qnt>25</Cj_qnt>
+                <Cj_qnt>5600</Cj_qnt>
             </DecList>
                         <DecList>
                 <spxh>3</spxh>
-                <cmcode>2936240000</cmcode>
-                <cm_name>烟酰胺</cm_name>
-                <Yb_bz>USD</Yb_bz>
-                <yb_amt>512.5</yb_amt>
+                <cmcode>2925290090</cmcode>
+                <cm_name>一水肌酸</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>13000</yb_amt>
                 <Fd_unit>035</Fd_unit>
-                <Fd_qnt>25</Fd_qnt>
+                <Fd_qnt>2000</Fd_qnt>
                 <No2_Fd_unit></No2_Fd_unit>
                 <No2_Fd_qnt>0</No2_Fd_qnt>
                 <Cj_unit>035</Cj_unit>
-                <Cj_qnt>25</Cj_qnt>
+                <Cj_qnt>2000</Cj_qnt>
             </DecList>
                     </DecLists>
     </Dec>

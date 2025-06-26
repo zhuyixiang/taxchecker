@@ -24,7 +24,7 @@ public class App {
         taxRefunds.forEach(taxRefund -> taxRefund.removeOrderNoLast3chars());
 
         XmlParser xmlParser = new XmlParser();
-        List<OrderDetail> orderList = xmlParser.getOrderList();
+        List<OrderDetail> orderList = xmlParser.getOrderDetailList();
 
         Map<TaxKey, TaxRefund> taxRefundMap = new HashMap<>();
 

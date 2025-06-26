@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RtxMessage>    <Dec>
+        <DecHead>
+            <bgd_no>422720250000587069</bgd_no>
+            <hgdjc_no></hgdjc_no>
+            <Hxd_no></Hxd_no>
+            <lj_date>20250607</lj_date>
+            <ht_no>ATS25008</ht_no>
+            <cj_type>CIF</cj_type>
+            <yf>1650</yf>
+            <yf_type>3</yf_type>
+            <Yf_bz>USD</Yf_bz>
+            <bf>10</bf>
+            <Bf_type>3</Bf_type>
+            <Bf_bz>USD</Bf_bz>
+            <zf>0</zf>
+            <Zf_type></Zf_type>
+            <Zf_bz></Zf_bz>
+            <my_type>0110</my_type>
+            <traf_name>MSC JAVELIN IX</traf_name>
+        </DecHead>
+        <DecLists>            <DecList>
+                <spxh>1</spxh>
+                <cmcode>2925290090</cmcode>
+                <cm_name>一水肌酸</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>72800</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>14000</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>14000</Cj_qnt>
+            </DecList>
+                        <DecList>
+                <spxh>2</spxh>
+                <cmcode>2924199090</cmcode>
+                <cm_name>L-瓜氨酸 DL-苹果酸</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>40800</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>4800</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>4800</Cj_qnt>
+            </DecList>
+                    </DecLists>
+    </Dec>
+    </RtxMessage>
+
