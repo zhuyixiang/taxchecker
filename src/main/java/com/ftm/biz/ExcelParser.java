@@ -7,7 +7,9 @@ import com.github.crab2died.exceptions.Excel4JException;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ExcelParser {
     public List<TaxRefund> parseOrder(String path) throws Excel4JException, IOException {
@@ -20,5 +22,16 @@ public class ExcelParser {
             }
         }
         return refundList;
+    }
+
+    public Map<String,String> parseProducts(String fileName) throws Excel4JException, IOException {
+        Map<String,String> nameCodeMap = new HashMap<String,String>();
+
+        List<Product> products = ExcelUtils.getInstance().readExcel2Objects(fileName, Product.class, 1);
+
+        for(Product product: products){
+            nameCodeMap.put(product.getName().replace("红心", "").trim(), product.getCode());
+        }
+        return nameCodeMap;
     }
 }

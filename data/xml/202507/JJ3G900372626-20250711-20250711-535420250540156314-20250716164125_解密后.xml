@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RtxMessage>    <Dec>
+        <DecHead>
+            <bgd_no>535420250540156314</bgd_no>
+            <hgdjc_no></hgdjc_no>
+            <Hxd_no></Hxd_no>
+            <lj_date>20250711</lj_date>
+            <ht_no>FTM2503001-4</ht_no>
+            <cj_type>CIF</cj_type>
+            <yf>4300</yf>
+            <yf_type>3</yf_type>
+            <Yf_bz>CNY</Yf_bz>
+            <bf>30</bf>
+            <Bf_type>3</Bf_type>
+            <Bf_bz>CNY</Bf_bz>
+            <zf>0</zf>
+            <Zf_type></Zf_type>
+            <Zf_bz></Zf_bz>
+            <my_type>0110</my_type>
+            <traf_name></traf_name>
+        </DecHead>
+        <DecLists>            <DecList>
+                <spxh>1</spxh>
+                <cmcode>2106909090</cmcode>
+                <cm_name>钙锌+D3 15ml饮品</cm_name>
+                <Yb_bz>USD</Yb_bz>
+                <yb_amt>21727.44</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>6322.8</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>6322.8</Cj_qnt>
+            </DecList>
+                    </DecLists>
+    </Dec>
+    </RtxMessage>
+
