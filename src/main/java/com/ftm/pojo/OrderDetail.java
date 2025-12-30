@@ -100,6 +100,7 @@ public class OrderDetail {
                 ", transportDate='" + transportDate + '\'' +
                 ", productCode='" + productCode + '\'' +
                 ", productName='" + productName + '\'' +
+                ", Unit='" + unit + '\'' +
                 '}';
     }
 
@@ -111,6 +112,7 @@ public class OrderDetail {
                 ", productCode='" + productCode + '\'' +
                 ", productName='" + productName + '\'' +
                 ", taxRefund='" + taxRefund + '\'' +
+                ", Unit='" + unit + '\'' +
                 '}';
     }
 

@@ -52,6 +52,8 @@ public class App {
                 String ftCode = productsMap.get(orderDetail.getProductName());
                 orderDetail.setFtProductCode(ftCode);
                 taxRefundOrders.add(orderDetail);
+
+                new BigDecimal(foundTaxRefund.getTaxRefund().replace(",",""));
             }
         }
 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RtxMessage>    <Dec>
+        <DecHead>
+            <bgd_no>222920250004383560</bgd_no>
+            <hgdjc_no></hgdjc_no>
+            <Hxd_no></Hxd_no>
+            <lj_date>20251122</lj_date>
+            <ht_no>ATS25014</ht_no>
+            <cj_type>CIF</cj_type>
+            <yf>141</yf>
+            <yf_type>3</yf_type>
+            <Yf_bz>AUD</Yf_bz>
+            <bf>6</bf>
+            <Bf_type>3</Bf_type>
+            <Bf_bz>AUD</Bf_bz>
+            <zf>0</zf>
+            <Zf_type></Zf_type>
+            <Zf_bz></Zf_bz>
+            <my_type>0110</my_type>
+            <traf_name>TS MUMBAI</traf_name>
+        </DecHead>
+        <DecLists>            <DecList>
+                <spxh>1</spxh>
+                <cmcode>2922491990</cmcode>
+                <cm_name>L-苯丙氨酸</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>2200</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>200</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>200</Cj_qnt>
+            </DecList>
+                        <DecList>
+                <spxh>2</spxh>
+                <cmcode>2922491990</cmcode>
+                <cm_name>L-正缬氨酸</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>22000</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>400</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>400</Cj_qnt>
+            </DecList>
+                    </DecLists>
+    </Dec>
+    </RtxMessage>
+
