@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RtxMessage>    <Dec>
         <DecHead>
-            <bgd_no>223120250004446425</bgd_no>
+            <bgd_no>422720250001328815</bgd_no>
             <hgdjc_no></hgdjc_no>
             <Hxd_no></Hxd_no>
-            <lj_date>20251105</lj_date>
-            <ht_no>FTM2509018</ht_no>
+            <lj_date>20251204</lj_date>
+            <ht_no>FTM2511026</ht_no>
             <cj_type>CIF</cj_type>
-            <yf>990</yf>
+            <yf>68</yf>
             <yf_type>3</yf_type>
-            <Yf_bz>USD</Yf_bz>
-            <bf>21</bf>
+            <Yf_bz>AUD</Yf_bz>
+            <bf>11</bf>
             <Bf_type>3</Bf_type>
-            <Bf_bz>USD</Bf_bz>
+            <Bf_bz>AUD</Bf_bz>
             <zf>0</zf>
             <Zf_type></Zf_type>
             <Zf_bz></Zf_bz>
             <my_type>0110</my_type>
-            <traf_name>OOCL BANGKOK</traf_name>
+            <traf_name>TS MUNDRA</traf_name>
         </DecHead>
         <DecLists>            <DecList>
                 <spxh>1</spxh>
-                <cmcode>21069090902</cmcode>
-                <cm_name>复合鱼油软胶囊</cm_name>
-                <Yb_bz>USD</Yb_bz>
-                <yb_amt>20022.34</yb_amt>
+                <cmcode>1515909090</cmcode>
+                <cm_name>琉璃苣油</cm_name>
+                <Yb_bz>AUD</Yb_bz>
+                <yb_amt>10450</yb_amt>
                 <Fd_unit>035</Fd_unit>
-                <Fd_qnt>651.29</Fd_qnt>
+                <Fd_qnt>190</Fd_qnt>
                 <No2_Fd_unit></No2_Fd_unit>
                 <No2_Fd_qnt>0</No2_Fd_qnt>
                 <Cj_unit>035</Cj_unit>
-                <Cj_qnt>651.29</Cj_qnt>
+                <Cj_qnt>190</Cj_qnt>
             </DecList>
                     </DecLists>
     </Dec>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RtxMessage>    <Dec>
+        <DecHead>
+            <bgd_no>422720250001327025</bgd_no>
+            <hgdjc_no></hgdjc_no>
+            <Hxd_no></Hxd_no>
+            <lj_date>20251204</lj_date>
+            <ht_no>FTM2510039-1 &amp; FTM2510020-2</ht_no>
+            <cj_type>CIF</cj_type>
+            <yf>4580</yf>
+            <yf_type>3</yf_type>
+            <Yf_bz>USD</Yf_bz>
+            <bf>47</bf>
+            <Bf_type>3</Bf_type>
+            <Bf_bz>USD</Bf_bz>
+            <zf>0</zf>
+            <Zf_type></Zf_type>
+            <Zf_bz></Zf_bz>
+            <my_type>0110</my_type>
+            <traf_name>TS MUNDRA</traf_name>
+        </DecHead>
+        <DecLists>            <DecList>
+                <spxh>1</spxh>
+                <cmcode>2106909090</cmcode>
+                <cm_name>钙镁锌氨基酸饮</cm_name>
+                <Yb_bz>USD</Yb_bz>
+                <yb_amt>24192</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>3136</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>3136</Cj_qnt>
+            </DecList>
+                        <DecList>
+                <spxh>2</spxh>
+                <cmcode>2106909090</cmcode>
+                <cm_name>钙锌+D3 15ml饮品</cm_name>
+                <Yb_bz>USD</Yb_bz>
+                <yb_amt>33696</yb_amt>
+                <Fd_unit>035</Fd_unit>
+                <Fd_qnt>7020</Fd_qnt>
+                <No2_Fd_unit></No2_Fd_unit>
+                <No2_Fd_qnt>0</No2_Fd_qnt>
+                <Cj_unit>035</Cj_unit>
+                <Cj_qnt>7020</Cj_qnt>
+            </DecList>
+                    </DecLists>
+    </Dec>
+    </RtxMessage>
+

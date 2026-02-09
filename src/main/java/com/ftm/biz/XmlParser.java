@@ -25,7 +25,6 @@ public class XmlParser {
                 for (File xmlFile : dir.listFiles()) {
                     if (xmlFile.getName().endsWith(".xml") && xmlFile.getName().contains("解密")) {
                         try {
-
                             InputStream is = new FileInputStream(xmlFile.getAbsolutePath());
                             SAXReader reader = new SAXReader();
                             Document doc = reader.read(is);
@@ -60,9 +59,9 @@ public class XmlParser {
         return orderDetails;
     }
 
-    public List<Order> getOrderList() throws DocumentException, FileNotFoundException {
+    public List<Order> getOrderList(String workDir) throws DocumentException, FileNotFoundException {
         List<Order> orders = new ArrayList<>();
-        File file = new File(ConfigUtils.getWorkDir());
+        File file = new File(workDir);
         for (File xmlFile : file.listFiles()) {
             if (xmlFile.getName().endsWith(".xml") && xmlFile.getName().contains("解密")) {
                 try {
