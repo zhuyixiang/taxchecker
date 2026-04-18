@@ -1,6 +1,5 @@
 package com.ftm.biz;
 
-import com.ftm.config.ConfigUtils;
 import com.ftm.pojo.Order;
 import com.ftm.pojo.OrderDetail;
 import org.dom4j.Document;
@@ -65,43 +64,46 @@ public class XmlParser {
         for (File xmlFile : file.listFiles()) {
             if (xmlFile.getName().endsWith(".xml") && xmlFile.getName().contains("解密")) {
                 try {
-                    Order order = new Order();
+
                     InputStream is = new FileInputStream(xmlFile.getAbsolutePath());
                     SAXReader reader = new SAXReader();
                     Document doc = reader.read(is);
                     Element root = doc.getRootElement();
-                    Element dec = root.element("Dec");
-                    Element header = dec.element("DecHead");
-                    order.setOrderNo(header.elementTextTrim("bgd_no"));
-                    order.setOrderId(header.elementTextTrim("ht_no"));
-                    order.setTransportDate(header.elementTextTrim("lj_date"));
-                    order.setCjType(header.elementTextTrim("cj_type"));
-                    order.setYfCurrency(header.elementTextTrim("Yf_bz"));
-                    order.setYfAmount(new BigDecimal(header.elementTextTrim("yf")));
-                    order.setBfCurrency(header.elementTextTrim("Bf_bz"));
-                    order.setBfAmount(new BigDecimal(header.elementTextTrim("bf")));
-                    Element lists = dec.element("DecLists");
+                    List<Element> decs = root.elements("Dec");
+                    for(Element dec : decs) {
+                        Element header = dec.element("DecHead");
+                        Order order = new Order();
+                        order.setOrderNo(header.elementTextTrim("bgd_no"));
+                        order.setOrderId(header.elementTextTrim("ht_no"));
+                        order.setTransportDate(header.elementTextTrim("lj_date"));
+                        order.setCjType(header.elementTextTrim("cj_type"));
+                        order.setYfCurrency(header.elementTextTrim("Yf_bz"));
+                        order.setYfAmount(new BigDecimal(header.elementTextTrim("yf")));
+                        order.setBfCurrency(header.elementTextTrim("Bf_bz"));
+                        order.setBfAmount(new BigDecimal(header.elementTextTrim("bf")));
+                        Element lists = dec.element("DecLists");
 
-                    BigDecimal totalAmount = BigDecimal.ZERO;
-                    BigDecimal totalUnit = BigDecimal.ZERO;
+                        BigDecimal totalAmount = BigDecimal.ZERO;
+                        BigDecimal totalUnit = BigDecimal.ZERO;
 
-                    for (Element decList : lists.elements()) {
-                        OrderDetail orderDetail = new OrderDetail();
-                        orderDetail.setProductCode(decList.elementTextTrim("cmcode"));
-                        orderDetail.setProductName(decList.elementTextTrim("cm_name"));
-                        orderDetail.setXuhao(decList.elementTextTrim("spxh"));
-                        orderDetail.setCurrency(decList.elementTextTrim("Yb_bz"));
-                        orderDetail.setAmount(new BigDecimal(decList.elementTextTrim("yb_amt")));
-                        orderDetail.setUnit(new BigDecimal(decList.elementTextTrim("Cj_qnt")));
-                        order.setCurrency(decList.elementTextTrim("Yb_bz"));
-                        totalAmount = totalAmount.add(orderDetail.getAmount());
-                        totalUnit = totalUnit.add(orderDetail.getUnit());
-                        order.getOrderDetails().add(orderDetail);
+                        for (Element decList : lists.elements()) {
+                            OrderDetail orderDetail = new OrderDetail();
+                            orderDetail.setProductCode(decList.elementTextTrim("cmcode"));
+                            orderDetail.setProductName(decList.elementTextTrim("cm_name"));
+                            orderDetail.setXuhao(decList.elementTextTrim("spxh"));
+                            orderDetail.setCurrency(decList.elementTextTrim("Yb_bz"));
+                            orderDetail.setAmount(new BigDecimal(decList.elementTextTrim("yb_amt")));
+                            orderDetail.setUnit(new BigDecimal(decList.elementTextTrim("Cj_qnt")));
+                            order.setCurrency(decList.elementTextTrim("Yb_bz"));
+                            totalAmount = totalAmount.add(orderDetail.getAmount());
+                            totalUnit = totalUnit.add(orderDetail.getUnit());
+                            order.getOrderDetails().add(orderDetail);
+                        }
+                        order.setTotalAmount(totalAmount);
+                        order.setTotalUnit(totalUnit);
+
+                        orders.add(order);
                     }
-                    order.setTotalAmount(totalAmount);
-                    order.setTotalUnit(totalUnit);
-
-                    orders.add(order);
                 } catch (Exception e) {
                     System.err.println(xmlFile.getAbsolutePath());
                     e.printStackTrace();

@@ -17,9 +17,9 @@ public class InvoiceCalc {
         ConfigUtils.init();
 
         XmlParser xmlParser = new XmlParser();
-        List<Order> orders = xmlParser.getOrderList("data/xml/202511");
-        orders.addAll(xmlParser.getOrderList("data/xml/202512"));
-        orders.addAll(xmlParser.getOrderList("data/xml/202510"));
+        List<Order> orders = xmlParser.getOrderList("data/xml/2026");
+//        orders.addAll(xmlParser.getOrderList("data/xml/202512"));
+//        orders.addAll(xmlParser.getOrderList("data/xml/202510"));
         StringBuffer output = new StringBuffer();
 
         for (Order order : orders) {
