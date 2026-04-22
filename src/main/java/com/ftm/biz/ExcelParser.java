@@ -1,8 +1,11 @@
 package com.ftm.biz;
 
+import com.ftm.pojo.Purchase;
+import com.ftm.pojo.PurchaseDetail;
 import com.ftm.pojo.TaxRefund;
 import com.github.crab2died.ExcelUtils;
 import com.github.crab2died.exceptions.Excel4JException;
+import com.google.gson.Gson;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,6 +38,41 @@ public class ExcelParser {
 
         initAddtionMap(nameCodeMap);
         return nameCodeMap;
+    }
+
+    public List<PurchaseDetail> parsePurchase(String fileName) throws Excel4JException, IOException {
+        Map<String, Purchase> map = new HashMap<>();
+        List<Purchase> purchases = ExcelUtils.getInstance().readExcel2Objects(fileName, Purchase.class, 1);
+        for (Purchase purchase : purchases) {
+            try {
+                purchase.calcRate();
+                map.put(purchase.getPurchaseContractNo(), purchase);
+                purchase.setPurchaseAmountCNY(purchase.getPurchaseAmount().multiply(purchase.getPurchaseCurrencyRate()));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        List<PurchaseDetail> purchaseDetails = ExcelUtils.getInstance().readExcel2Objects(fileName, PurchaseDetail.class, 2);
+        for (PurchaseDetail purchaseDetail : purchaseDetails) {
+            try {
+                //特殊处理
+                if (map.get(purchaseDetail.getPurchaseContractNo()) != null) {
+
+
+
+                    Purchase purchase = map.get(purchaseDetail.getPurchaseContractNo());
+                    purchaseDetail.setPurchaseAmountCNY(purchase.getPurchaseCurrencyRate().multiply(purchaseDetail.getPurchaseAmount()));
+                    purchaseDetail.setPurchasePriceCNY(purchase.getPurchaseCurrencyRate().multiply(purchaseDetail.getPurchasePrice()));
+                    purchaseDetail.setPurchaseCurrency(purchase.getPurchaseCurrency());
+                    purchaseDetail.setPurchaseCurrencyRate(purchase.getPurchaseCurrencyRate());
+                    purchaseDetail.setBuyer(purchase.getPurchasePerson());
+                    purchaseDetail.setSupplier(purchase.getSupplier());
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return purchaseDetails;
     }
 
     private void initAddtionMap(Map<String, String> nameCodeMap) {

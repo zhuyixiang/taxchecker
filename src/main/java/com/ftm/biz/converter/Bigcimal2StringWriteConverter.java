@@ -1,4 +1,4 @@
-package com.ftm.biz;
+package com.ftm.biz.converter;
 
 import com.github.crab2died.converter.WriteConvertible;
 
