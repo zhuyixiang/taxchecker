@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RtxMessage>    <Dec>
+<RtxMessage>
+    <Dec>
         <DecHead>
             <bgd_no>010120250000668081</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -19,7 +20,8 @@
             <my_type>0110</my_type>
             <traf_name></traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>2923100000</cmcode>
                 <cm_name>胞磷胆碱</cm_name>
@@ -32,9 +34,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>100</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>222920250004974698</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -54,7 +56,8 @@
             <my_type>0110</my_type>
             <traf_name>OOCL DURBAN</traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>2106909090</cmcode>
                 <cm_name>钙锌+D3 15ml饮品</cm_name>
@@ -67,7 +70,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>1350</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>2</spxh>
                 <cmcode>2106909090</cmcode>
                 <cm_name>钙镁锌氨基酸饮</cm_name>
@@ -80,9 +83,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>7716.8</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>222920250005049887</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -102,7 +105,8 @@
             <my_type>0110</my_type>
             <traf_name>VOLANS</traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>芒果叶提取物</cm_name>
@@ -115,7 +119,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>200</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>2</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>核桃提取物</cm_name>
@@ -128,7 +132,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>300</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>3</spxh>
                 <cmcode>2938909090</cmcode>
                 <cm_name>辛弗林盐酸盐</cm_name>
@@ -141,7 +145,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>300</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>4</spxh>
                 <cmcode>2925290090</cmcode>
                 <cm_name>L-精氨酸盐酸盐</cm_name>
@@ -154,7 +158,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>300</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>5</spxh>
                 <cmcode>2924199090</cmcode>
                 <cm_name>L-瓜氨酸</cm_name>
@@ -167,7 +171,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>6000</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>6</spxh>
                 <cmcode>2932999099</cmcode>
                 <cm_name>石杉碱甲 1%</cm_name>
@@ -180,9 +184,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>20</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>222920250005055670</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -202,7 +206,8 @@
             <my_type>0110</my_type>
             <traf_name>OOCL BEIJING</traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>2106909090</cmcode>
                 <cm_name>胶原蛋白肽</cm_name>
@@ -215,9 +220,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>20000</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>224420260000538962</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -237,7 +242,8 @@
             <my_type>0110</my_type>
             <traf_name>LD783</traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>人参提取物</cm_name>
@@ -250,9 +256,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>50</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>310120260519804433</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -272,7 +278,8 @@
             <my_type>0110</my_type>
             <traf_name>OOCL HONG KONG</traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>2106909090</cmcode>
                 <cm_name>叶黄素咀嚼软胶囊</cm_name>
@@ -285,9 +292,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>755.48</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>010120260000038824</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -307,7 +314,8 @@
             <my_type>0110</my_type>
             <traf_name></traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>葡萄柚籽提取物</cm_name>
@@ -320,7 +328,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>50</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>2</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>绿茶提取物</cm_name>
@@ -333,7 +341,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>25</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>3</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>苦橙提取物</cm_name>
@@ -346,7 +354,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>10</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>4</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>藤黄果提取物</cm_name>
@@ -359,7 +367,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>325</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>5</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>喜来芝提取物</cm_name>
@@ -372,7 +380,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>20</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>6</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>绿茶提取物</cm_name>
@@ -385,9 +393,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>225</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>010120260000038839</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -407,7 +415,8 @@
             <my_type>0110</my_type>
             <traf_name></traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>西兰花籽提取物</cm_name>
@@ -420,7 +429,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>50</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>2</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>杜松子提取物</cm_name>
@@ -433,7 +442,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>50</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>3</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>松叶菊提取物</cm_name>
@@ -446,7 +455,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>50</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>4</spxh>
                 <cmcode>2940009090</cmcode>
                 <cm_name>阿拉伯半乳聚糖</cm_name>
@@ -459,9 +468,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>400</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>222920260000322809</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -481,7 +490,8 @@
             <my_type>0110</my_type>
             <traf_name>CAPE SERRAT</traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>藤黄果提取物</cm_name>
@@ -494,7 +504,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>500</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>2</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>喜来芝提取物</cm_name>
@@ -507,7 +517,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>25</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>3</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>葡萄柚籽提取物</cm_name>
@@ -520,7 +530,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>200</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>4</spxh>
                 <cmcode>2925290090</cmcode>
                 <cm_name>硫酸胍基丁胺</cm_name>
@@ -533,7 +543,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>1350</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>5</spxh>
                 <cmcode>2923100000</cmcode>
                 <cm_name>胞磷胆碱</cm_name>
@@ -546,7 +556,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>50</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>6</spxh>
                 <cmcode>2938909090</cmcode>
                 <cm_name>辛弗林盐酸盐</cm_name>
@@ -559,9 +569,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>200</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>222920260000322877</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -581,7 +591,8 @@
             <my_type>0110</my_type>
             <traf_name>CAPE SERRAT</traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>核桃提取物</cm_name>
@@ -594,7 +605,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>100</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>2</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>芒果叶提取物</cm_name>
@@ -607,7 +618,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>200</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>3</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>杜松子提取物</cm_name>
@@ -620,7 +631,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>200</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>4</spxh>
                 <cmcode>2932999099</cmcode>
                 <cm_name>石杉碱甲 1%</cm_name>
@@ -633,7 +644,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>20</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>5</spxh>
                 <cmcode>2924199090</cmcode>
                 <cm_name>L-瓜氨酸 DL-苹果酸</cm_name>
@@ -646,9 +657,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>4800</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>010120260000048392</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -668,7 +679,8 @@
             <my_type>0110</my_type>
             <traf_name></traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>玛卡提取物</cm_name>
@@ -681,9 +693,9 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>100</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-        <Dec>
+    <Dec>
         <DecHead>
             <bgd_no>223120260000449057</bgd_no>
             <hgdjc_no></hgdjc_no>
@@ -703,7 +715,8 @@
             <my_type>0110</my_type>
             <traf_name>YM TRUTH</traf_name>
         </DecHead>
-        <DecLists>            <DecList>
+        <DecLists>
+            <DecList>
                 <spxh>1</spxh>
                 <cmcode>1302199099</cmcode>
                 <cm_name>生姜提取物</cm_name>
@@ -716,7 +729,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>50</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>2</spxh>
                 <cmcode>2925290090</cmcode>
                 <cm_name>L-精氨酸α-酮戊二酸</cm_name>
@@ -729,7 +742,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>200</Cj_qnt>
             </DecList>
-                        <DecList>
+            <DecList>
                 <spxh>3</spxh>
                 <cmcode>2936290000</cmcode>
                 <cm_name>烟酸</cm_name>
@@ -742,7 +755,7 @@
                 <Cj_unit>035</Cj_unit>
                 <Cj_qnt>50</Cj_qnt>
             </DecList>
-                    </DecLists>
+        </DecLists>
     </Dec>
-    </RtxMessage>
+</RtxMessage>
 

@@ -28,24 +28,26 @@ public class XmlParser {
                             SAXReader reader = new SAXReader();
                             Document doc = reader.read(is);
                             Element root = doc.getRootElement();
-                            Element dec = root.element("Dec");
-                            Element header = dec.element("DecHead");
-                            String orderNo = header.elementTextTrim("bgd_no");
-                            String orderId = header.elementTextTrim("ht_no");
-                            String transportDate = header.elementTextTrim("lj_date");
-                            Element lists = dec.element("DecLists");
-                            for (Element decList : lists.elements()) {
-                                OrderDetail orderDetail = new OrderDetail();
-                                orderDetail.setOrderNo(orderNo);
-                                orderDetail.setOrderId(orderId);
-                                orderDetail.setTransportDate(transportDate);
-                                orderDetail.setProductCode(decList.elementTextTrim("cmcode"));
-                                orderDetail.setProductName(decList.elementTextTrim("cm_name"));
-                                orderDetail.setXuhao(decList.elementTextTrim("spxh"));
-                                orderDetail.setCurrency(decList.elementTextTrim("Yb_bz"));
-                                orderDetail.setAmount(new BigDecimal(decList.elementTextTrim("yb_amt")));
-                                orderDetail.setUnit(new BigDecimal(decList.elementTextTrim("Cj_qnt")));
-                                orderDetails.add(orderDetail);
+                            List<Element> decs = root.elements("Dec");
+                            for(Element dec : decs) {
+                                Element header = dec.element("DecHead");
+                                String orderNo = header.elementTextTrim("bgd_no");
+                                String orderId = header.elementTextTrim("ht_no");
+                                String transportDate = header.elementTextTrim("lj_date");
+                                Element lists = dec.element("DecLists");
+                                for (Element decList : lists.elements()) {
+                                    OrderDetail orderDetail = new OrderDetail();
+                                    orderDetail.setOrderNo(orderNo);
+                                    orderDetail.setOrderId(orderId);
+                                    orderDetail.setTransportDate(transportDate);
+                                    orderDetail.setProductCode(decList.elementTextTrim("cmcode"));
+                                    orderDetail.setProductName(decList.elementTextTrim("cm_name"));
+                                    orderDetail.setXuhao(decList.elementTextTrim("spxh"));
+                                    orderDetail.setCurrency(decList.elementTextTrim("Yb_bz"));
+                                    orderDetail.setAmount(new BigDecimal(decList.elementTextTrim("yb_amt")));
+                                    orderDetail.setUnit(new BigDecimal(decList.elementTextTrim("Cj_qnt")));
+                                    orderDetails.add(orderDetail);
+                                }
                             }
                         } catch (Exception e) {
                             System.err.println(xmlFile.getAbsolutePath());
